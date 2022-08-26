@@ -1,0 +1,571 @@
+ body {
+    font-family: 'Poppins', sans-serif;
+ }
+ .text-color {
+    color: #20c997;
+ }
+ .home .home-bg {
+    background-image: url(../img/intro-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+ }
+ .bg-dark{
+  background-color: rgb(53, 52, 52) !important;
+ }
+ .overlay {
+    background-color: rgba(0, 0, 0);
+    position: absolute;
+    top: 0;
+    left: 0px;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0.8;
+ }
+ .home .home-title {
+    color: rgb(255, 255, 255);
+ }
+ .moving-p {
+    font-size: 80px;
+    ;
+    font-weight: 600;
+ }
+ .moving-p::after {
+    content: "|";
+    animation: typing 20s infinite;
+ }
+ @keyframes typing {
+    0% {
+       content: "I'm |";
+    }
+
+    1% {
+       content: "I'm S|";
+    }
+
+    2% {
+       content: "I'm Si|";
+    }
+
+    3% {
+       content: "I'm Sim|";
+    }
+
+    4% {
+       content: "I'm Simo|";
+    }
+
+    5% {
+       content: "I'm Simon|";
+    }
+
+    6% {
+       content: "I'm Simone|";
+    }
+
+    7% {
+       content: "I'm Simone O|";
+    }
+
+    8% {
+       content: "I'm Simone Ol|";
+    }
+
+    9% {
+       content: "I'm Simone Oli|";
+    }
+
+    10% {
+       content: "I'm Simone Oliv|";
+    }
+
+    11% {
+       content: "I'm Simone Olivi|";
+    }
+
+    12% {
+       content: "I'm Simone Olivia|";
+    }
+
+    13% {
+       content: "I'm Simone Olivi|";
+    }
+
+    14% {
+       content: "I'm Simone Oliv|";
+    }
+
+    15% {
+       content: "I'm Simone Oli|";
+    }
+
+    16% {
+       content: "I'm Simone Ol|";
+    }
+
+    17% {
+       content: "I'm Simone O|";
+    }
+
+    18% {
+       content: "I'm Simone|";
+    }
+
+    19% {
+       content: "I'm Simon|";
+    }
+
+    20% {
+       content: "I'm Simo|";
+    }
+
+    21% {
+       content: "I'm Sim|";
+    }
+
+    22% {
+       content: "I'm Si|";
+    }
+
+    23% {
+       content: "I'm S|";
+    }
+
+    24% {
+       content: "I'm |";
+    }
+
+    25% {
+       content: "I'm D|";
+    }
+
+    26% {
+       content: "I'm De|";
+    }
+
+    27% {
+       content: "I'm Des|";
+    }
+
+    28% {
+       content: "I'm Desi|";
+    }
+
+    29% {
+       content: "I'm Desig|";
+    }
+
+    30% {
+       content: "I'm Design|";
+    }
+
+    31% {
+       content: "I'm Designe|";
+    }
+
+    32% {
+       content: "I'm Designer|";
+    }
+
+    33% {
+       content: "I'm Designe|";
+    }
+
+    34% {
+       content: "I'm Design|";
+    }
+
+    35% {
+       content: "I'm Desig|";
+    }
+
+    36% {
+       content: "I'm Desi|";
+    }
+
+    37% {
+       content: "I'm Des|";
+    }
+
+    38% {
+       content: "I'm De|";
+    }
+
+    39% {
+       content: "I'm D|";
+    }
+
+    40% {
+       content: "I'm |";
+    }
+
+    41% {
+       content: "I'm D|";
+    }
+
+    42% {
+       content: "I'm De|";
+    }
+
+    43% {
+       content: "I'm Dev|";
+    }
+
+    44% {
+       content: "I'm Deve|";
+    }
+
+    45% {
+       content: "I'm Devel|";
+    }
+
+    46% {
+       content: "I'm Develo|";
+    }
+
+    47% {
+       content: "I'm Develop|";
+    }
+
+    48% {
+       content: "I'm Develope|";
+    }
+
+    49% {
+       content: "I'm Developer|";
+    }
+
+    50% {
+       content: "I'm I'm Develope|";
+    }
+
+    51% {
+       content: "I'm I'm Develop|";
+    }
+
+    52% {
+       content: "I'm Develo|";
+    }
+
+    53% {
+       content: "I'm Devel|";
+    }
+
+    54% {
+       content: "I'm Deve|";
+    }
+
+    55% {
+       content: "I'm Dev|";
+    }
+
+    56% {
+       content: "I'm De|";
+    }
+
+    57% {
+       content: "I'm D|";
+    }
+
+    58% {
+       content: "I'm|";
+    }
+
+    59% {
+       content: "I'm F|";
+    }
+
+    60% {
+       content: "I'm Fr|";
+    }
+
+    61% {
+       content: "I'm Fre|";
+    }
+
+    62% {
+       content: "I'm Free|";
+    }
+
+    63% {
+       content: "I'm Freel|";
+    }
+
+    64% {
+       content: "I'm Freela|";
+    }
+
+    65% {
+       content: "I'm Freelan|";
+    }
+
+    66% {
+       content: "I'm Freelanc|";
+    }
+
+    67% {
+       content: "I'm Freelance|";
+    }
+
+    68% {
+       content: "I'm Freelancer|";
+    }
+
+    69% {
+       content: "I'm Freelance|";
+    }
+
+    70% {
+       content: "I'm Freelanc|";
+    }
+
+    71% {
+       content: "I'm Freelan|";
+    }
+
+    72% {
+       content: "I'm Freelan|";
+    }
+
+    73% {
+       content: "I'm Freela|";
+    }
+
+    74% {
+       content: "I'm Freel|";
+    }
+
+    75% {
+       content: "I'm Free|";
+    }
+
+    76% {
+       content: "I'm Fre|";
+    }
+
+    77% {
+       content: "I'm Fr|";
+    }
+
+    78% {
+       content: "I'm F|";
+    }
+
+    79% {
+       content: "I'm |";
+    }
+
+    80% {
+       content: "I'm P|";
+    }
+
+    81% {
+       content: "I'm Ph|";
+    }
+
+    82% {
+       content: "I'm Pho|";
+    }
+
+    83% {
+       content: "I'm Phot|";
+    }
+
+    84% {
+       content: "I'm Photo|";
+    }
+
+    85% {
+       content: "I'm Photog|";
+    }
+
+    86% {
+       content: "I'm Photogra|";
+    }
+
+    87% {
+       content: "I'm Photograp|";
+    }
+
+    88% {
+       content: "I'm Photograph|";
+    }
+
+    89% {
+       content: "I'm Photographe|";
+    }
+
+    90% {
+       content: "I'm Photographer|";
+    }
+
+    91% {
+       content: "|";
+    }
+ }
+ .btn-lg {
+    width: 150px;
+    height: 50px;
+ }
+ .btn-outline-primary,
+ .btn-outline-primary:not(:disabled):not(.disabled).active,
+ .btn-outline-primary:not(:disabled):not(.disabled):active {
+    color: #20c997;
+    border-color: #20c997;
+ }
+ .btn-outline-primary:hover,
+ .btn-outline-primary:not(:disabled):not(.disabled).active:hover,
+ .btn-outline-primary:not(:disabled):not(.disabled):active:hover {
+    background-color: #20c997;
+    border-color: #20c997;
+    color: #fff;
+ }
+ .navbar a.active:not(.btn) {
+    color: #20c997;
+    transition: all 0.2s ease;
+ }
+ .navbar a:hover {
+    color: #20c997;
+    transition: all 0.2s ease;
+ }
+ .personal-name {
+    color: #20c997;
+    font-weight: 600;
+    font-size: 1.75rem !important;
+ }
+ .about p {
+    line-height: 1.8;
+ }
+ .about .brdr,
+ .what-i-do .brdr,
+ .resume .brdr,
+ .work .brdr ,
+ .contact .brdr{
+    width: 90px;
+    height: 3px;
+    background-color: #20c997;
+ }
+ .about .about-btn {
+    background-color: #20c997;
+    color: #fff;
+    width: 200px;
+ }
+ .about .about-btn:hover {
+    background-color: #1baa80;
+ }
+ .about .counter h4 span {
+    font-size: 48px;
+    font-weight: 700;
+ }
+ .what-i-do h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-weight: 500;
+    color: #252b33;
+ }
+ .what-i-do .icon {
+    color: #20c997;
+    font-size: 30px;
+    font-weight: 900;
+ }
+ .resume-box{
+  border:1px solid #dee2e6;
+  padding: 18px 35px;
+  width: 100%;
+  /* border-radius: 2%; */
+   
+ }
+ .resume h2{
+    font-size: 1.50rem;  
+ }
+ .resume .badge , .progress-bar{
+   background-color:  #20c997;
+ }
+ .resume h3{
+   font-size: 20px;
+ }
+ .progress-sm{
+   height: 0.5rem !important;
+ }
+ .skill-btn .btn-outline-dark {
+      color: #20c997;
+      border-color: #596168;
+ }
+ .skill-btn .btn-outline-dark:hover {
+   color: white;
+  background-color: #5d666e;
+}
+ .skill-btn .btn{
+   border-width: 2px;
+   width: 170px;
+   height: 60px;
+ }
+ .contact-message .btn {
+  width: 170px;
+  height: 60px;
+ }
+ .moving-p {
+  font-size: 80px;
+  font-weight: 600;
+}
+ @media(max-width:767px){
+  .moving-p {
+    font-size: 40px;
+    font-weight: 600;
+  }
+  .skill-btn .btn, .contact-message .btn {
+    width: 140px;
+    height: 50px;
+    font-size: 13px;
+  };
+  .personal-info {
+    margin: 0;
+  };
+  .about .counter h4 span {
+    font-size: 20px;
+    font-weight: 700;
+}
+ };
+.skill-item p span .skill-prec{
+   margin-left: 100px;
+ }
+ .client-img {
+   width:80px;
+   height:80px;
+}
+.carousel-indicators [data-bs-target]{
+    text-indent:0;
+}
+.work .carousel-indicators button .fa-regular{
+   color: #20c997;
+font-size:30px;
+}
+.contact i{
+   color: #20c997;
+   font-size:20px;
+}
+.contact .btn-primary{
+   color:white;
+   background-color: #20c997;
+   border:none;
+   
+}
+.contact .btn-primary:hover{
+   background-color:#1baa80;
+}
+footer{
+   margin:80px auto;
+}
+footer a{
+   text-decoration: none;
+color: #252b33;
+}
+footer a:hover{
+   color: #20c997;
+}
+footer .foot-link:hover{
+   color: #1baa80;
+
+}
