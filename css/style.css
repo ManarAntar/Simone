@@ -4,35 +4,31 @@
  .text-color {
     color: #20c997;
  }
- .home .home-bg {
+ .about .brdr,
+ .what-i-do .brdr,
+ .resume .brdr,
+ .work .brdr ,
+ .contact .brdr{
+    width: 90px;
+    height: 3px;
+    background-color: #20c997;
+ }
+ /* start home */
+ .home{
     background-image: url(../img/intro-bg.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center center;
  }
- .bg-dark{
-  background-color: rgb(53, 52, 52) !important;
+ .overlay{
+    background-color: rgba(0, 0, 0,0.8);
  }
- .overlay {
-    background-color: rgba(0, 0, 0);
-    position: absolute;
-    top: 0;
-    left: 0px;
-    padding: 0;
-    height: 100%;
-    width: 100%;
-    opacity: 0.8;
- }
- .home .home-title {
-    color: rgb(255, 255, 255);
- }
- .moving-p {
+ .moving-p{
     font-size: 80px;
-    ;
     font-weight: 600;
  }
- .moving-p::after {
+ .moving-p::after{
     content: "|";
     animation: typing 20s infinite;
  }
@@ -406,21 +402,23 @@
     }
  }
  .btn-lg {
-    width: 150px;
-    height: 50px;
- }
- .btn-outline-primary,
- .btn-outline-primary:not(:disabled):not(.disabled).active,
- .btn-outline-primary:not(:disabled):not(.disabled):active {
-    color: #20c997;
-    border-color: #20c997;
- }
- .btn-outline-primary:hover,
- .btn-outline-primary:not(:disabled):not(.disabled).active:hover,
- .btn-outline-primary:not(:disabled):not(.disabled):active:hover {
-    background-color: #20c997;
-    border-color: #20c997;
-    color: #fff;
+  width: 150px;
+  height: 50px;
+}
+.btn-outline-primary{
+  color: #20c997;
+  border-color: #20c997;
+}
+.btn-outline-primary:hover{
+  background-color: #20c997;
+  border-color: #20c997;
+  color: #fff;
+}
+ /* End home */
+ 
+ /* start navbar */
+ .bg-dark{
+  background-color: rgba(53, 52, 52, 0.952) !important;
  }
  .navbar a.active:not(.btn) {
     color: #20c997;
@@ -430,22 +428,16 @@
     color: #20c997;
     transition: all 0.2s ease;
  }
+ /* End navbar */
+
+ /* Start About */
  .personal-name {
-    color: #20c997;
-    font-weight: 600;
-    font-size: 1.75rem !important;
- }
+  color: #20c997;
+  font-weight: 600;
+  font-size: 1.75rem !important;
+}
  .about p {
     line-height: 1.8;
- }
- .about .brdr,
- .what-i-do .brdr,
- .resume .brdr,
- .work .brdr ,
- .contact .brdr{
-    width: 90px;
-    height: 3px;
-    background-color: #20c997;
  }
  .about .about-btn {
     background-color: #20c997;
@@ -455,27 +447,37 @@
  .about .about-btn:hover {
     background-color: #1baa80;
  }
- .about .counter h4 span {
+ /* End About */
+
+ /* Start counter */
+ .counter{
+   width: 80%;
+ }
+ .counter h4 span {
     font-size: 48px;
     font-weight: 700;
  }
+ .counter .counter-item{
+   border-right: 2px dotted #e0dede;
+ }
+   /* End counter */
+
+   /* Start what-i-do  */
  .what-i-do h3 {
     font-size: 20px;
     margin-bottom: 10px;
-    font-weight: 500;
     color: #252b33;
  }
  .what-i-do .icon {
-    color: #20c997;
     font-size: 30px;
-    font-weight: 900;
+    /* font-weight: 900; */
  }
+  /* End what-i-do  */ 
+
+  /* Start Resume */
  .resume-box{
   border:1px solid #dee2e6;
   padding: 18px 35px;
-  width: 100%;
-  /* border-radius: 2%; */
-   
  }
  .resume h2{
     font-size: 1.50rem;  
@@ -486,11 +488,17 @@
  .resume h3{
    font-size: 20px;
  }
+ /* End Resume  */
+
+ /* Start skill */
+ .skill{
+   width:80%;
+   margin: auto;
+ }
  .progress-sm{
    height: 0.5rem !important;
  }
  .skill-btn .btn-outline-dark {
-      color: #20c997;
       border-color: #596168;
  }
  .skill-btn .btn-outline-dark:hover {
@@ -502,34 +510,14 @@
    width: 170px;
    height: 60px;
  }
+ .skill-item p span .skill-prec{
+  margin-left: 100px;
+ }
+  /* End skill */
+
  .contact-message .btn {
   width: 170px;
   height: 60px;
- }
- .moving-p {
-  font-size: 80px;
-  font-weight: 600;
-}
- @media(max-width:767px){
-  .moving-p {
-    font-size: 40px;
-    font-weight: 600;
-  }
-  .skill-btn .btn, .contact-message .btn {
-    width: 140px;
-    height: 50px;
-    font-size: 13px;
-  };
-  .personal-info {
-    margin: 0;
-  };
-  .about .counter h4 span {
-    font-size: 20px;
-    font-weight: 700;
-}
- };
-.skill-item p span .skill-prec{
-   margin-left: 100px;
  }
  .client-img {
    width:80px;
@@ -555,17 +543,64 @@ font-size:30px;
 .contact .btn-primary:hover{
    background-color:#1baa80;
 }
+/* Start Footer */
 footer{
    margin:80px auto;
 }
 footer a{
-   text-decoration: none;
-color: #252b33;
+   color: #252b33;
 }
 footer a:hover{
    color: #20c997;
 }
 footer .foot-link:hover{
    color: #1baa80;
-
 }
+.footer .footer-item{
+  border-right: 2px solid #e0dede;
+}
+/* End Footer */
+
+@media (max-width:767px){
+  .home .home-title{
+    margin-top: 80px;
+  }
+  .home button{
+    margin-bottom: 50px;
+  }
+  .moving-p {
+    font-size: 40px !important;
+    font-weight: 600!important;
+  }
+  .about .personal-info {
+    margin: 0 !important;
+  }
+  .counter h4 span{
+    font-size: 30px !important;
+    font-weight: 700 !important;
+}
+.counter .counter-item{
+  border: none;
+}
+.counter hr {
+  display: block !important;
+}
+  .skill-btn .btn, .contact-message .btn {
+    width: 140px;
+    height: 50px;
+    font-size: 13px;
+  }
+  .contact .contact-cap, .contact .contact-form{
+    margin:auto;
+    text-align: center;
+  }
+  .contact .contact-cap{
+    width:50%;
+  }
+  .contact .contact-form{
+    width:90%;
+  }
+  .footer{
+    display: block;
+  }
+ };

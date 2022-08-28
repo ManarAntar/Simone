@@ -19,65 +19,63 @@
 </head>
 
 <body>
+  <!-- Start Navbar -->
   <header>
-    <nav class="navbar navbar-expand-lg bg-dark navbar-dark fixed-top ">
-      <div class="container-fluid">
-        <a class="navbar-brand fw-bolder fs-2 mx-3" href="#">Simone</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-          aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav m-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">What I Do</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Resume</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Portfoilo</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Client</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Contact</a>
-            </li>
-          </ul>
-
-        </div>
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark fixed-top container-fluid">
+      <a class="navbar-brand fw-bolder fs-2 mx-3" href="#">Simone</a>
+      <!-- responsive btn -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+        aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav m-auto mb-2">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">What I Do</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Resume</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Portfoilo</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Client</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+        </ul>
       </div>
     </nav>
   </header>
+  <!-- End Navbar -->
 
+  <!-- Start Home -->
   <section>
-    <div class="home position-relative mb-5">
-      <div class="home-bg vh-100">
-        <div class="home-elements d-flex justify-content-center align-items-center overlay">
-          <div class="home-title text-center fw-900">
-            <h3 class="mb-3 fw-500">Welcome</h3>
-            <h1>
-              <span class="moving-p"></span>
-            </h1>
-            <p class="lead m-4">based in Los Angeles, California.</p>
-            <button class="btn btn-outline-primary rounded-pill text-center btn-lg ">Hire Me</button>
-          </div>
+    <div class="home position-relative mb-5 vh-100">
+      <div class="overlay d-flex justify-content-center align-items-center position-absolute top-0 left-0 w-100 h-100">
+        <div class="home-title text-center fw-900 text-white">
+          <h3 class="mb-3 fw-500">Welcome</h3>
+          <h1>
+            <span class="moving-p"></span>
+          </h1>
+          <p class="lead m-4">based in Los Angeles, California.</p>
+          <button class="btn btn-outline-primary rounded-pill text-center btn-lg">Hire Me</button>
         </div>
-
       </div>
     </div>
   </section>
+  <!-- End Home -->
 
   <!-- Start About -->
-  <section class="about m-5 py-5">
+  <section class="about mx-5 py-5 my-3">
     <div class="container">
       <!--  -->
       <div class="section-title m-4">
@@ -121,450 +119,452 @@
             <button class="about-btn btn rounded-pill p-3 ">Download CV</button>
           </div>
         </div>
-
       </div>
-
-      <div class="counter m-3 text-center">
-        <div class="row d-flex">
-          <div class="col px-3">
-            <h4 class="text-muted">
-              <span>+10</span>
-            </h4>
-            <p>Years Experiance</p>
-          </div>
-          <div class="col px-3">
-            <h4 class="text-muted">
-              <span>250+</span>
-            </h4>
-            <p>Happy Clients</p>
-          </div>
-          <div class="col px-3">
-            <h4 class="text-muted">
-              <span>650+</span>
-            </h4>
-            <p>Projects Done</p>
-          </div>
-          <div class="col px-3">
-            <h4 class="text-muted">
-              <span>38</span>
-            </h4>
-            <p>Get Awards</p>
-          </div>
-        </div>
-
-      </div>
+    </div>
   </section>
+  <!-- End About -->
 
-  <section class="what-i-do mb-5">
-    <div class="container">
-      <div class="section-title m-5">
-        <h2 class="text-center fw-bolder">What I Do?</h2>
-        <div class="brdr m-auto"></div>
+  <!-- Start counter  -->
+  <section class="counter mb-5 text-center container">
+    <div class="row d-flex mx-auto">
+      <div class="col-md-3 py-3 counter-item">
+        <h4 class="text-muted">
+          <span>+10</span>
+        </h4>
+        <p>Years Experiance</p>
+        <hr class="d-none">
       </div>
-      <div class="row ">
-        <div class="col-md-6 d-flex p-4">
-          <div class="icon">
-            <i class="fas fa-palette p-3"></i>
-          </div>
-          <div class="desc">
-            <h3 class="fw-bold">Graphic Design</h3>
-            <p class="text-muted">Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.
-            </p>
-          </div>
-        </div>
-        <div class="col-md-6 d-flex p-4">
-          <div class="icon">
-            <i class="fas fa-desktop p-3"></i>
-          </div>
-          <div class="desc">
-            <h3 class="fw-bold">Web Design</h3>
-            <p class="text-muted">Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.
-            </p>
-          </div>
-        </div>
+      <div class="col-md-3 py-3 counter-item">
+        <h4 class="text-muted">
+          <span>250+</span>
+        </h4>
+        <p>Happy Clients</p>
+        <hr class="d-none">
       </div>
+      <div class="col-md-3 py-3 counter-item">
+        <h4 class="text-muted">
+          <span>650+</span>
+        </h4>
+        <p>Projects Done</p>
+        <hr class="d-none">
+      </div>
+      <div class="col-md-3 py-3">
+        <h4 class="text-muted">
+          <span>38</span>
+        </h4>
+        <p>Get Awards</p>
+      </div>
+    </div>
+  </section>
+  <!-- End counter -->
 
-      <div class="row ">
-        <div class="col-md-6 d-flex p-4">
-          <div class="icon">
-            <i class="fas fa-pencil-ruler p-3"></i>
-          </div>
-          <div class="desc">
-            <h3 class="fw-bold">UI/UX Design</h3>
-            <p class="text-muted">Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.
-            </p>
-          </div>
+  <!-- Start what-i-do  -->
+  <section class="what-i-do container mb-5">
+    <div class="section-title m-5">
+      <h2 class="text-center fw-bolder pt-5">What I Do?</h2>
+      <div class="brdr m-auto"></div>
+    </div>
+    <div class="row">
+      <div class="col-md-6 d-flex p-4">
+        <div class="icon text-color">
+          <i class="fas fa-palette p-3"></i>
         </div>
-        <div class="col-md-6 d-flex p-4">
-          <div class="icon">
-            <i class="fas fa-paint-brush p-3"></i>
-          </div>
-          <div class="desc">
-            <h3 class="fw-bold">App Design & Develop</h3>
-            <p class="text-muted">Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.
-            </p>
-          </div>
+        <div class="desc">
+          <h3 class="fw-bold">Graphic Design</h3>
+          <p class="text-muted">Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.
+          </p>
         </div>
       </div>
-
-      <div class="row ">
-        <div class="col-md-6 d-flex p-4">
-          <div class="icon">
-            <i class="fas fa-chart-area p-3"></i>
-          </div>
-          <div class="desc">
-            <h3 class="fw-bold">Business Analysis</h3>
-            <p class="text-muted">Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.
-            </p>
-          </div>
+      <div class="col-md-6 d-flex p-4">
+        <div class="icon text-color">
+          <i class="fas fa-desktop p-3"></i>
         </div>
-        <div class="col-md-6 d-flex p-4">
-          <div class="icon">
-            <i class="fas fa-bullhorn p-3"></i>
-          </div>
-          <div class="desc">
-            <h3 class="fw-bold">SEO Marketing</h3>
-            <p class="text-muted">Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.
-            </p>
-          </div>
+        <div class="desc">
+          <h3 class="fw-bold">Web Design</h3>
+          <p class="text-muted">Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="row ">
+      <div class="col-md-6 d-flex p-4">
+        <div class="icon text-color">
+          <i class="fas fa-pencil-ruler p-3"></i>
+        </div>
+        <div class="desc">
+          <h3 class="fw-bold">UI/UX Design</h3>
+          <p class="text-muted">Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.
+          </p>
+        </div>
+      </div>
+      <div class="col-md-6 d-flex p-4">
+        <div class="icon text-color">
+          <i class="fas fa-paint-brush p-3"></i>
+        </div>
+        <div class="desc">
+          <h3 class="fw-bold">App Design & Develop</h3>
+          <p class="text-muted">Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="row ">
+      <div class="col-md-6 d-flex p-4">
+        <div class="icon text-color">
+          <i class="fas fa-chart-area p-3"></i>
+        </div>
+        <div class="desc">
+          <h3 class="fw-bold">Business Analysis</h3>
+          <p class="text-muted">Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.
+          </p>
+        </div>
+      </div>
+      <div class="col-md-6 d-flex p-4">
+        <div class="icon text-color">
+          <i class="fas fa-bullhorn p-3"></i>
+        </div>
+        <div class="desc">
+          <h3 class="fw-bold">SEO Marketing</h3>
+          <p class="text-muted">Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.
+          </p>
         </div>
       </div>
     </div>
   </section>
+  <!-- End what-i-do  -->
 
   <!-- Start Resume -->
-  <section class="resume p-5">
-    <div class="container">
+  <section class="resume container p-5">
+    <div class="section-title m-5">
+      <h2 class="text-center fw-bolder">Resume</h2>
+      <div class="brdr m-auto"></div>
+    </div>
+    <div class="row mb-3">
+      <div class="col-md-6 mb-4">
+        <h2 class="fw-bolder mb-4">My Education</h2>
+        <div class="my-4 resume-box w-100 rounded-1">
+          <span class="badge mb-2">2000 - 2004</span>
+          <h3 class="fw-bold">Computer Science</h3>
+          <p class="text-danger">International University</p>
+          <p>Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.</p>
+        </div>
+        <div class="my-4 resume-box w-100 rounded-1">
+          <span class="badge mb-2">2005 - 2008</span>
+          <h3 class="fw-bold">Bachelor Degree</h3>
+          <p class="text-danger">University of California</p>
+          <p>Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.</p>
+        </div>
+        <div class="my-4 resume-box w-100 rounded-1">
+          <span class="badge mb-2">2009 - 2012</span>
+          <h3 class="fw-bold">Master Degree</h3>
+          <p class="text-danger">Harvard University</p>
+          <p>Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.</p>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <h2 class="fw-bolder mb-4">My Experience</h2>
+        <div class="my-4 resume-box w-100 rounded-1">
+          <span class="badge mb-2">2012 - 2013</span>
+          <h3 class="fw-bold">Jr. UI UX Designer</h3>
+          <p class="text-danger">Themeforest</p>
+          <p>Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.</p>
+        </div>
+        <div class="my-4 resume-box w-100 rounded-1">
+          <span class="badge mb-2">2014 - 2016</span>
+          <h3 class="fw-bold">Jr. Product Designer</h3>
+          <p class="text-danger">Dribbble</p>
+          <p>Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.</p>
+        </div>
+        <div class="my-4 resume-box w-100 rounded-1">
+          <span class="badge mb-2">2017 - 2019</span>
+          <h3 class="fw-bold">Product Designer</h3>
+          <p class="text-danger">Adobe</p>
+          <p>Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Resume -->
+
+  <!-- Start Skills -->
+  <section class="skill mb-5 container mx-auto">
       <div class="section-title m-5">
-        <h2 class="text-center fw-bolder">Resume</h2>
+        <h2 class="fw-bolder mt-5">My Skills</h2>
+      </div>
+      <div class="row">
+        <div class="col-md-6 mb-2">
+          <div class="skill-item">
+            <p class="text-dark fw-bold mb-2">Web Design
+              <span class="float-end skill-prec">65%</span>
+            </p>
+          </div>
+          <div class="progress progress-sm mb-4">
+            <div class="progress-bar" role="progressbar" style="width: 65%" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100"></div>
+          </div>
+        </div>
+        <div class="col-md-6 mb-2">
+          <div class="skill-item">
+            <p class="text-dark fw-bold mb-2">HTML/CSS
+              <span class="float-end">95%</span>
+            </p>
+          </div>
+          <div class="progress progress-sm mb-4">
+            <div class="progress-bar" role="progressbar" style="width: 95%" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6 mb-2">
+          <div class="skill-item">
+            <p class="text-dark fw-bold  mb-2">JavaScript
+              <span class="float-end">80%</span>
+            </p>
+          </div>
+          <div class="progress progress-sm mb-4">
+            <div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+          </div>
+        </div>
+        <div class="col-md-6 mb-2">
+          <div class="skill-item">
+            <p class="text-dark fw-bold  mb-2">React JS
+              <span class="float-end">70%</span>
+            </p>
+          </div>
+          <div class="progress progress-sm mb-4">
+            <div class="progress-bar" role="progressbar" style="width: 70%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6 mb-2">
+          <div class="skill-item">
+            <p class="text-dark fw-bold  mb-2">Angular Js
+              <span class="float-end">60%</span>
+            </p>
+          </div>
+          <div class="progress  progress-sm mb-4">
+            <div class="progress-bar" role="progressbar" style="width: 60%" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+          </div>
+        </div>
+        <div class="col-md-6 mb-2">
+          <div class="skill-item">
+            <p class="text-dark fw-bold mb-2">Bootstrap
+              <span class="float-end">99%</span>
+            </p>
+          </div>
+          <div class="progress  progress-sm mb-4">
+            <div class="progress-bar" role="progressbar" style="width: 99%" aria-valuenow="99" aria-valuemin="0" aria-valuemax="100"></div>
+          </div>
+        </div>
+      </div>
+      <div class="skill-btn text-center mt-4 mb-5">
+        <button class="btn btn-outline-dark text-color rounded-pill fw-bolder mb-5">Download CV
+          <i class="fa-solid fa-download"></i>
+        </button>
+      </div>
+  </section>
+  <!-- End Skills -->
+
+  <!-- Start client -->
+
+  <section class="work mb-5">
+    <div class="container">
+      <div class="section-title mb-5">
+        <h2 class="text-center fw-bolder">Client Speak</h2>
         <div class="brdr m-auto"></div>
       </div>
-      <div class="row mb-3">
-        <div class="col-md-6">
-          <h2 class="fw-bolder mb-4">My Education</h2>
-          <div class="my-4 resume-box rounded-1">
-            <span class="badge mb-2">2000 - 2004</span>
-            <h3 class="fw-bold">Computer Science</h3>
-            <p class="text-danger">International University</p>
-            <p>Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.</p>
-          </div>
-          <div class="my-4 resume-box">
-            <span class="badge mb-2">2005 - 2008</span>
-            <h3 class="fw-bold">Bachelor Degree</h3>
-            <p class="text-danger">University of California</p>
-            <p>Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.</p>
-          </div>
-          <div class="my-4 resume-box">
-            <span class="badge mb-2">2009 - 2012</span>
-            <h3 class="fw-bold">Master Degree</h3>
-            <p class="text-danger">Harvard University</p>
-            <p>Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.</p>
-          </div>
-        </div>
-        <div class="col-md-6">
-          <h2 class="fw-bolder mb-4">My Experience</h2>
-          <div class="my-4 resume-box">
-            <span class="badge mb-2">2012 - 2013</span>
-            <h3 class="fw-bold">Jr. UI UX Designer</h3>
-            <p class="text-danger">Themeforest</p>
-            <p>Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.</p>
-          </div>
-          <div class="my-4 resume-box">
-            <span class="badge mb-2">2014 - 2016</span>
-            <h3 class="fw-bold">Jr. Product Designer</h3>
-            <p class="text-danger">Dribbble</p>
-            <p>Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.</p>
-          </div>
-          <div class="my-4 resume-box">
-            <span class="badge mb-2">2017 - 2019</span>
-            <h3 class="fw-bold">Product Designer</h3>
-            <p class="text-danger">Adobe</p>
-            <p>Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.</p>
-          </div>
-        </div>
-      </div>
-      <!-- End Resume -->
+      <div id="testmonial">
+        <div id="carouselExampleIndicators" class="carousel slide " data-bs-ride="true">
+          <div class="carousel-inner mx-auto ">
+            <div class="carousel-item active ">
+              <div class="row">
+                <div class="col">
+                  <div class="person-title d-flex">
+                    <div>
+                      <img src="img/client-sm-3.jpg" class="client-img rounded-circle shadow-lg p-1 mt-2" alt="...">
+                    </div>
+                    <div class="p-2 mt-3">
+                      <p class="ms-3 mb-0">
+                        <strong class="d-block text-dark fw-600">Dennis Jacques</strong>
+                        <span class="text-muted fw-500">User from USA</span>
+                      </p>
+                    </div>
+                  </div>
+                  <div class="client-feedback p-4">
+                    <p class="text-dark fw-bold mb-4">â€œOnly trying it out since a few days. But up to now excellent. Seems to work flawlessly. priced simply
+                      dummy text of the printing and typesetting industry.â€
+                    </p>
+                    <span class="text-warning">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                    </span>
+                  </div>
+                </div>
 
-      <!-- Start Skills -->
-      <section class="skill mb-5">
-        <div class="section-title m-5">
-          <h2 class="fw-bolder mt-5">My Skills</h2>
+                <div class="col">
+                  <div class="person-title d-flex">
+                    <div>
+                      <img src="img/client-sm-1.jpg" class="client-img rounded-circle shadow-lg p-1 mt-2" alt="...">
+                    </div>
+                    <div class="p-2 mt-3">
+                      <p class="ms-3 mb-0">
+                        <strong class="d-block text-dark fw-600">Jay Shah</strong>
+                        <span class="text-muted fw-500">Founder at Icomatic Pvt Ltd</span>
+                      </p>
+                    </div>
+                  </div>
+                  <div class="client-feedback p-4">
+                    <p class="text-dark fw-bold mb-4">"Easy to use, reasonably priced simply dummy text of the printing and typesetting industry. Quidam lisque
+                      persius interesset his et, in quot quidam possim iriure.â€
+                    </p>
+                    <span class="text-warning">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="carousel-item ">
+              <div class="row">
+                <div class="col">
+
+                  <div class="person-title d-flex">
+                    <div>
+                      <img src="img/client-sm-2.jpg" class="client-img rounded-circle shadow-lg p-1 mt-2" alt="...">
+                    </div>
+                    <div class="p-2 mt-3">
+                      <p class="ms-3 mb-0">
+                        <strong class="d-block text-dark fw-600">Patrick Cary</strong>
+                        <span class="text-muted fw-500">Freelancer from USA</span>
+                      </p>
+                    </div>
+                  </div>
+                  <div class="client-feedback p-4">
+                    <p class="text-dark fw-bold mb-4">â€œI am happy Working with printing and typesetting industry. Quidam lisque persius interesset his et,
+                      in quot quidam persequeris essent possim iriure.â€</p>
+                    <span class="text-warning">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                    </span>
+                  </div>
+                </div>
+
+                <div class="col">
+                  <div class="person-title d-flex">
+                    <div>
+                      <img src="img/client-sm-4.jpg" class="client-img rounded-circle shadow-lg p-1 mt-2" alt="...">
+                    </div>
+                    <div class="p-2 mt-3">
+                      <p class="ms-3 mb-0">
+                        <strong class="d-block text-dark fw-600">Chris Tom</strong>
+                        <span class="text-muted fw-500">User from UK</span>
+                      </p>
+                    </div>
+                  </div>
+                  <div class="client-feedback p-4">
+                    <p class="text-dark fw-bold mb-4">â€œI have used them twice now. Good rates, very efficient service and priced simply dummy text of the
+                      printing and typesetting industry quidam interesset his et. Excellent.â€
+                    </p>
+                    <span class="text-warning">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-        <div class="row">
-          <div class="col mb-2">
-            <div class="skill-item w-100">
-              <p class="text-dark fw-bold mb-2">Web Design
-                <span class="float-end skill-prec">65%</span>
-              </p>
-            </div>
-            <div class="progress progress-sm">
-              <div class="progress-bar" role="progressbar" style="width: 65%" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100"></div>
-            </div>
-          </div>
-          <div class="col mb-2">
-            <div class="skill-item">
-              <p class="text-dark fw-bold  mb-2">HTML/CSS
-                <span class="float-end">95%</span>
-              </p>
-            </div>
-            <div class="progress progress-sm mb-4">
-              <div class="progress-bar" role="progressbar" style="width: 95%" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col mb-2">
-            <div class="skill-item">
-              <p class="text-dark fw-bold  mb-2">JavaScript
-                <span class="float-end">80%</span>
-              </p>
-            </div>
-            <div class="progress progress-sm mb-4">
-              <div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
-            </div>
-          </div>
-          <div class="col mb-2">
-            <div class="skill-item">
-              <p class="text-dark fw-bold  mb-2">React JS
-                <span class="float-end">70%</span>
-              </p>
-            </div>
-            <div class="progress progress-sm mb-4">
-              <div class="progress-bar" role="progressbar" style="width: 70%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col mb-2">
-            <div class="skill-item">
-              <p class="text-dark fw-bold  mb-2">Angular Js
-                <span class="float-end">60%</span>
-              </p>
-            </div>
-            <div class="progress  progress-sm mb-4">
-              <div class="progress-bar" role="progressbar" style="width: 60%" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
-            </div>
-          </div>
-          <div class="col mb-2">
-            <div class="skill-item">
-              <p class="text-dark fw-bold mb-2">Bootstrap
-                <span class="float-end">99%</span>
-              </p>
-            </div>
-            <div class="progress  progress-sm mb-4">
-              <div class="progress-bar" role="progressbar" style="width: 99%" aria-valuenow="99" aria-valuemin="0" aria-valuemax="100"></div>
-            </div>
-          </div>
-        </div>
-        <div class="skill-btn text-center mt-4 mb-5">
-          <button class="btn btn-outline-dark rounded-pill fw-bolder mb-5">Download CV
-            <i class="fa-solid fa-download"></i>
+
+        <div class="carousel-indicators position-static mb-5">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true"
+            aria-label="Slide 1">
+            <i class="fa-regular fa-circle-dot"></i>
+          </button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" class="active" aria-current="true"
+            aria-label="Slide 2">
+            <i class="fa-regular fa-circle-dot"></i>
           </button>
         </div>
-      </section>
+      </div>
+  </section>
+  <!-- End client -->
 
-      <!-- End Skills -->
-
-      <!-- Start client -->
-
-      <section class="work mb-5">
-        <div class="container">
-          <div class="section-title mb-5">
-            <h2 class="text-center fw-bolder">Client Speak</h2>
-            <div class="brdr m-auto"></div>
-          </div>
-          <section id="testmonial">
-            <div id="carouselExampleIndicators" class="carousel slide " data-bs-ride="true">
-              <div class="carousel-inner mx-auto ">
-                <div class="carousel-item active ">
-                  <div class="row">
-                    <div class="col">
-                      <div class="person-title d-flex">
-                        <div>
-                          <img src="img/client-sm-3.jpg" class="client-img rounded-circle shadow-lg p-1 mt-2" alt="...">
-                        </div>
-                        <div class="p-2 mt-3">
-                          <p class="ms-3 mb-0">
-                            <strong class="d-block text-dark fw-600">Dennis Jacques</strong>
-                            <span class="text-muted fw-500">User from USA</span>
-                          </p>
-                        </div>
-                      </div>
-                      <div class="client-feedback p-4">
-                        <p class="text-dark fw-bold mb-4">â€œOnly trying it out since a few days. But up to now excellent. Seems to work flawlessly. priced
-                          simply dummy text of the printing and typesetting industry.â€
-                        </p>
-                        <span class="text-warning">
-                          <i class="fa-solid fa-star"></i>
-                          <i class="fa-solid fa-star"></i>
-                          <i class="fa-solid fa-star"></i>
-                          <i class="fa-solid fa-star"></i>
-                          <i class="fa-solid fa-star"></i>
-                        </span>
-                      </div>
-                    </div>
-
-                    <div class="col">
-                      <div class="person-title d-flex">
-                        <div>
-                          <img src="img/client-sm-1.jpg" class="client-img rounded-circle shadow-lg p-1 mt-2" alt="...">
-                        </div>
-                        <div class="p-2 mt-3">
-                          <p class="ms-3 mb-0">
-                            <strong class="d-block text-dark fw-600">Jay Shah</strong>
-                            <span class="text-muted fw-500">Founder at Icomatic Pvt Ltd</span>
-                          </p>
-                        </div>
-                      </div>
-                      <div class="client-feedback p-4">
-                        <p class="text-dark fw-bold mb-4">"Easy to use, reasonably priced simply dummy text of the printing and typesetting industry. Quidam
-                          lisque persius interesset his et, in quot quidam possim iriure.â€
-                        </p>
-                        <span class="text-warning">
-                          <i class="fa-solid fa-star"></i>
-                          <i class="fa-solid fa-star"></i>
-                          <i class="fa-solid fa-star"></i>
-                          <i class="fa-solid fa-star"></i>
-                          <i class="fa-solid fa-star"></i>
-                        </span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="carousel-item ">
-                  <div class="row">
-                    <div class="col">
-
-                      <div class="person-title d-flex">
-                        <div>
-                          <img src="img/client-sm-2.jpg" class="client-img rounded-circle shadow-lg p-1 mt-2" alt="...">
-                        </div>
-                        <div class="p-2 mt-3">
-                          <p class="ms-3 mb-0">
-                            <strong class="d-block text-dark fw-600">Patrick Cary</strong>
-                            <span class="text-muted fw-500">Freelancer from USA</span>
-                          </p>
-                        </div>
-                      </div>
-                      <div class="client-feedback p-4">
-                        <p class="text-dark fw-bold mb-4">â€œI am happy Working with printing and typesetting industry. Quidam lisque persius interesset his
-                          et, in quot quidam persequeris essent possim iriure.â€</p>
-                        <span class="text-warning">
-                          <i class="fa-solid fa-star"></i>
-                          <i class="fa-solid fa-star"></i>
-                          <i class="fa-solid fa-star"></i>
-                          <i class="fa-solid fa-star"></i>
-                          <i class="fa-solid fa-star"></i>
-                        </span>
-                      </div>
-                    </div>
-
-                    <div class="col">
-                      <div class="person-title d-flex">
-                        <div>
-                          <img src="img/client-sm-4.jpg" class="client-img rounded-circle shadow-lg p-1 mt-2" alt="...">
-                        </div>
-                        <div class="p-2 mt-3">
-                          <p class="ms-3 mb-0">
-                            <strong class="d-block text-dark fw-600">Chris Tom</strong>
-                            <span class="text-muted fw-500">User from UK</span>
-                          </p>
-                        </div>
-                      </div>
-                      <div class="client-feedback p-4">
-                        <p class="text-dark fw-bold mb-4">â€œI have used them twice now. Good rates, very efficient service and priced simply dummy text of
-                          the printing and typesetting industry quidam interesset his et. Excellent.â€
-                        </p>
-                        <span class="text-warning">
-                          <i class="fa-solid fa-star"></i>
-                          <i class="fa-solid fa-star"></i>
-                          <i class="fa-solid fa-star"></i>
-                          <i class="fa-solid fa-star"></i>
-                          <i class="fa-solid fa-star"></i>
-                        </span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="carousel-indicators position-static mb-5">
-              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true"
-                aria-label="Slide 1">
-                <i class="fa-regular fa-circle-dot"></i>
-              </button>
-              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" class="active" aria-current="true"
-                aria-label="Slide 2">
-                <i class="fa-regular fa-circle-dot"></i>
-              </button>
-            </div>
+  <!-- Start contact -->
+  <section class="contact py-5 mb-3 container">
+    <div class="section-title mt-5">
+      <h2 class="text-center fw-bolder">Get in Touch</h2>
+      <div class="brdr m-auto"></div>
+    </div>
+    <div class="row">
+      <div class="col-lg-3 col-md-4 contact-cap">
+        <div class="section-title">
+          <h4 class="fw-bolder mt-5 mb-4">ADDRESS</h4>
         </div>
-        </section>
-        <!-- End client -->
-
-        <!-- Start contact -->
-        <section class="contact py-5 mb-5">
-          <div class="container mb-5">
-            <div class="section-title mt-5">
-              <h2 class="text-center fw-bolder">Get in Touch</h2>
-              <div class="brdr m-auto"></div>
+        <p>4th Floor, Plot No.22, 145 Murphy Canyon Rd. San Diego CA 2028</p>
+        <p>
+          <i class="fa-solid fa-phone-flip p-2 "></i>(060) 444 434 444</p>
+        <p>
+          <i class="fas fa-fax p-2"></i>(060) 555 545 555</p>
+        <p>
+          <i class="fa-solid fa-envelope p-2"></i>chat@simone.com</p>
+        <h5 class="fw-bolder mt-1 mb-4 mx-3">FOLLOW ME</h5>
+      </div>
+      <div class="col-lg-9 col-md-8 mt-2 contact-form">
+        <div class="section-title">
+          <h4 class="fw-bolder mt-5 mb-4">SEND US A NOTE</h4>
+        </div>
+        <form>
+          <div class="row g-3">
+            <div class="col-xl-6">
+              <input name="name" type="text" class="form-control" required placeholder="Name">
             </div>
-            <div class="row">
-                <div class="col-lg-3 col-md-4">
-                    <div class="section-title">
-                      <h4 class="fw-bolder mt-5 mb-4">ADDRESS</h4>
-                    </div>
-                    <p>4th Floor, Plot No.22, 145 Murphy Canyon Rd. San Diego CA 2028</p>
-                    <p>
-                      <i class="fa-solid fa-phone-flip p-2 "></i>(060) 444 434 444</p>
-                    <p>
-                      <i class="fas fa-fax p-2"></i>(060) 555 545 555</p>
-                    <p>
-                      <i class="fa-solid fa-envelope p-2"></i>chat@simone.com</p>
-                    <h5 class="fw-bolder mt-1 mb-4 mx-3">FOLLOW ME</h5>
-                  </div>
-              <div class="col-lg-9 col-md-8 mt-2">
-                <div class="section-title">
-                  <h4 class="fw-bolder mt-5 mb-4">SEND US A NOTE</h4>
-                </div>
-                <form>
-                  <div class="row g-3">
-                    <div class="col-xl-6">
-                      <input name="name" type="text" class="form-control" required placeholder="Name">
-                    </div>
-                    <div class="col-xl-6">
-                      <input name="email" type="email" class="form-control" required placeholder="Email">
-                    </div>
-                    <div class="col">
-                      <textarea name="form-message" class="form-control" rows="5" required placeholder="Tell us more about your needs........"></textarea>
-                    </div>
-                  </div>
-                  <div class="text-center contact-message mt-4">
-                    <button class="btn btn-primary rounded-pill shadow" type="submit">Send Message
-                    </button>
-                  </div>
-                </form>
-              </div>
-              
+            <div class="col-xl-6">
+              <input name="email" type="email" class="form-control" required placeholder="Email">
+            </div>
+            <div class="col">
+              <textarea name="form-message" class="form-control" rows="5" required placeholder="Tell us more about your needs........"></textarea>
             </div>
           </div>
-        </section>
-      <!-- End contact -->
-
-        <footer class="pt-5">
-          <div class="container">
-            <div class="d-flex justify-content-between text-center ">
-              <div class="fw-500">Copyright Â© 2021
-                <a href="index.html" class="text-color fw-bold foot-link">Simone.</a> All Rights Reserved.</div>
-              <div>
-                <a href="#" class="m-4">Terms & Policy</a>
-                <a href="#" class="m-4">Disclaimer</a>
-              </div>
-            </div>
+          <div class="text-center contact-message mt-4">
+            <button class="btn btn-primary rounded-pill shadow" type="submit">Send Message
+            </button>
           </div>
-        </footer>
+        </form>
+      </div>
+    </div>
+  </section>
+  <!-- End contact -->
+
+  <!-- Start Footer  -->
+  <footer class="pt-5 containe footer">
+    <div class="d-flex justify-content-between text-center row ">
+      <div class="fw-500 col-md-7 my-4 mx-auto px-5">Copyright Â© 2021
+        <a href="index.html" class="text-color fw-bold foot-link text-decoration-none">Simone.</a> All Rights Reserved.
+      </div>
+      <div class="col-md-5 mt-4 mx-auto">
+        <a href="#" class="text-decoration-none footer-item px-4">Terms & Policy</a>
+        <a href="#" class="text-decoration-none px-4">Disclaimer</a>
+      </div>
+    </div>
+  </footer>
+  <!-- End Footer  -->
 </body>
 
 </html>
